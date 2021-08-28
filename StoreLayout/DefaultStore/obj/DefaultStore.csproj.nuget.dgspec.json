@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Estudos\\StoreLayout\\DefaultStore\\DefaultStore.csproj": {}
+    "E:\\Estudos\\EstudoNETCore\\StoreLayout\\DefaultStore\\DefaultStore.csproj": {}
   },
   "projects": {
-    "E:\\Estudos\\StoreLayout\\DefaultStore\\DefaultStore.csproj": {
+    "E:\\Estudos\\EstudoNETCore\\StoreLayout\\DefaultStore\\DefaultStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Estudos\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
+        "projectUniqueName": "E:\\Estudos\\EstudoNETCore\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
         "projectName": "DefaultStore",
-        "projectPath": "E:\\Estudos\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
+        "projectPath": "E:\\Estudos\\EstudoNETCore\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "E:\\Estudos\\StoreLayout\\DefaultStore\\obj\\",
+        "outputPath": "E:\\Estudos\\EstudoNETCore\\StoreLayout\\DefaultStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",

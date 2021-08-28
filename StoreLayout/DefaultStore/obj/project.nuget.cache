@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bmVx11wVCyEBWdhh+c1aVOAVYE9x4LGYE7crQIrPkwki1CwHtxKrbNL9OW+LsLucS/5qp5OpRX/BbVSo1GNEcA==",
+  "dgSpecHash": "nmqHpGiROh7pRDnetkp9gT1I+h+r1EkxR1TOsBa3Qtvs/+FLmpbtXoKNuYj4KeAXYL+EHlEgGguuBphrx5Rs3A==",
   "success": true,
-  "projectFilePath": "E:\\Estudos\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
+  "projectFilePath": "E:\\Estudos\\EstudoNETCore\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
