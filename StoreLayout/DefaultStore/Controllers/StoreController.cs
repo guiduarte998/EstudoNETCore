@@ -10,7 +10,6 @@ using System.Data.SqlClient;
 
 namespace DefaultStore.Controllers
 {
-    [Route("[controller]/[action]")]
     public class StoreController : Controller
     {
 
@@ -19,6 +18,11 @@ namespace DefaultStore.Controllers
         public StoreController(ILogger<StoreController> logger)
         {
             _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
         }
 
         public ActionResult GetProduct([FromServices] IConfiguration configuration)

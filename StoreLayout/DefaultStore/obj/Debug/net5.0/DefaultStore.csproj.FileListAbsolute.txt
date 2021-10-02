@@ -63,7 +63,6 @@ E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\bin\Debug\net5.0\runtimes\win-
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.csproj.AssemblyReference.cache
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.GeneratedMSBuildEditorConfig.editorconfig
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.AssemblyInfoInputs.cache
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.AssemblyInfo.cs
@@ -77,7 +76,6 @@ E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\scopedcss\bun
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.TagHelpers.input.cache
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.TagHelpers.output.cache
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.RazorCoreGenerate.cache
-E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -92,3 +90,5 @@ E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\ref\DefaultStore.dll
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.pdb
 E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.genruntimeconfig.cache
+E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.csproj.AssemblyReference.cache
+E:\Estudos\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Store\Index.cshtml.g.cs
