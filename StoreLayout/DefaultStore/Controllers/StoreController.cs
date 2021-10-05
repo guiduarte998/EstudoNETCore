@@ -1,12 +1,13 @@
 ﻿using Dapper;
 using DefaultStore.Models;
+using DefaultStore.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-
+using System.Linq;
 
 namespace DefaultStore.Controllers
 {
@@ -15,9 +16,12 @@ namespace DefaultStore.Controllers
 
         private readonly ILogger<StoreController> _logger;
 
-        public StoreController(ILogger<StoreController> logger)
+        private readonly StoreContext _context;
+
+        public StoreController(ILogger<StoreController> logger, StoreContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -27,13 +31,7 @@ namespace DefaultStore.Controllers
 
         public ActionResult GetProduct([FromServices] IConfiguration configuration)
         {
-            SqlConnection conn = new(configuration.GetConnectionString("StoreDataBase"));
-
-            conn.Open();
-
-            var productList = conn.Query<Product>("SELECT * FROM Store.PRODUCT");
-            
-            conn.Close();
+            var productList = _context.Products.FirstOrDefault();
 
             return View("Store", productList);
         }
