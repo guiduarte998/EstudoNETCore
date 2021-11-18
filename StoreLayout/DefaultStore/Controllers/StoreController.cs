@@ -1,12 +1,7 @@
-﻿using Dapper;
-using DefaultStore.Models;
-using DefaultStore.Repositories;
+﻿using DefaultStore.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 
 namespace DefaultStore.Controllers
@@ -31,7 +26,7 @@ namespace DefaultStore.Controllers
 
         public ActionResult GetProduct([FromServices] IConfiguration configuration)
         {
-            var productList = _context.Products.FirstOrDefault();
+            var productList = _context.Products.ToList();
 
             return View("Store", productList);
         }

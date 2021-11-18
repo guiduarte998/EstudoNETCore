@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uDdaHMaHYz9JYtBV7lbqaePIh1OOs11B09idpkQQfUSpBRvsX8TmsRwIpBFN4X/kTT3+ABTyNcoeErz9foX6JQ==",
+  "dgSpecHash": "UoL376mIAxqGycjLGUnWYRiuG6oUWLy8i/L0ekWWA+PAppLqbaky3omoxNiHgAVy5c72Vnavmdn6DfVKfc1WNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilh\\Source\\Repos\\guiduarte998\\EstudoNETCore\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
+  "projectFilePath": "E:\\Estudos\\Store\\EstudoNETCore\\StoreLayout\\DefaultStore\\DefaultStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

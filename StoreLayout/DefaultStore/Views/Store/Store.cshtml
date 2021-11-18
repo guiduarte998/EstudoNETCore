@@ -5,27 +5,33 @@
 <head>
     <link rel="stylesheet" href="~/css/storeView.css">
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/table.css" />
     
 </head>
 
 <body>
-    <h1>Store</h1>
-
-    <p>In this page you can see and add new products to your shopping cart.</p>
-    <table>
+    <h2 class="title">Product List</h2>
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
         <tr>
             <th>Name</th>
-            <th>Description</th>
+            <th>Type</th>
             <th>Price</th>
+            <th>Ações</th>
         </tr>
+        </thead>
+        <tbody>   
         @foreach (var i in Model)
         {
             <tr>
                 <td>@i.Name</td>
                 <td>@i.Description</td>
                 <td>@i.Price</td>
+                <td><a href="@Url.Action("Index", "Store")" class="btn btn-primary"></a></td>
             </tr>
         }
+        </tbody>
     </table>
     <br>
     <!-- Trigger/Open The Modal -->
@@ -36,8 +42,7 @@
 
         <!-- Modal content -->
         <div class="modal-content-store">
-            <span class="close">&times;</span>
-            <p>Some text in the Modal..</p>
+                <partial name="_showModalStoreView.cshtml"/>
         </div>
 
     </div>
