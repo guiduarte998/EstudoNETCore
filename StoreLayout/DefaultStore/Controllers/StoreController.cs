@@ -1,7 +1,9 @@
-﻿using DefaultStore.Repositories;
+﻿using DefaultStore.Models;
+using DefaultStore.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace DefaultStore.Controllers
@@ -26,7 +28,7 @@ namespace DefaultStore.Controllers
 
         public ActionResult GetProduct([FromServices] IConfiguration configuration)
         {
-            var productList = _context.Products.ToList();
+            IEnumerable<Product> productList = _context.Products;
 
             return View("Store", productList);
         }

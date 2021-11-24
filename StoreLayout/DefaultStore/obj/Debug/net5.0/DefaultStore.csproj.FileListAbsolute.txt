@@ -239,7 +239,6 @@ E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\V
 E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Store\Index.cshtml.g.cs
 E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Store\Store.cshtml.g.cs
-E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\Store\_showModalStoreView.cshtml.g.cs
 E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 E:\Estudos\Store\EstudoNETCore\StoreLayout\DefaultStore\obj\Debug\net5.0\DefaultStore.RazorTargetAssemblyInfo.cache
